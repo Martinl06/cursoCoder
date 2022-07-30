@@ -433,8 +433,8 @@ header {
          font-size: 12px;
      }
      .menu li a{
-         margin: 0.5px;
-         padding: 0.5px;
+         margin: 0.5rem;
+         padding: 0.5rem;
      } 
 
 main{
@@ -596,7 +596,7 @@ gap: 1px;
      }
 
      .nav_container{
-         margin-bottom: 20px;
+         margin-bottom: 2rem;
      }
  
      .menu ul {
@@ -607,8 +607,8 @@ gap: 1px;
          font-size: 12px;
      }
      .menu li a{
-         margin: 0.5px;
-         padding: 0.5px;
+         margin: 2rem;
+         padding: 2rem;
      } 
 
 main{
