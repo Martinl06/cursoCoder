@@ -651,7 +651,7 @@ gap: 1px;
      }
 
      .nav_container{
-         padding-bottom: 3rem;
+         padding-bottom: 5rem;
      }
  
      .menu ul {
@@ -847,7 +847,7 @@ gap: 1px;
      }
 
      .nav_container{
-         margin-bottom: 20px;
+            padding-bottom: 5rem;
      }
  
      .menu ul {
@@ -968,6 +968,7 @@ gap: 1px;
 .footer-container-estilos iframe{
     width: 10rem;
     height: 10rem;
+    padding-bottom: 2rem;
 }
 
 .footer-logo{
