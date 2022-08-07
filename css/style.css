@@ -327,31 +327,57 @@ header {
  }
 
 @media screen and (max-width:320px){
-    .video_propiedades iframe{
-        width: 25rem;
-        height: 25rem;
+    .video_propiedades_2{
+        display: none;
     }
+    .description_2{
+        display: none;
+    }
+
+    /*.video .row ,iframe{
+        width: 15rem !important;
+        height: 15rem !important;
+        padding-bottom: 0rem !important;
+    }
+    
     .video_propiedades img{
-        width: 10px;
-        height: 10px;
-    }
+        width: 15rem !important;
+        height: 15rem !important;
+        padding-top: 4rem !important;
+        margin-bottom: 0rem !important;
+    }*/
+
+     .titulo-pre-grid{
+        font-size: 2rem;
+        width: 18rem;
+        text-align: center;
+        margin: 10rem auto;
+}
+     .row.imagenes-layout{
+        width: 10rem;
+        height: 10rem;
+     }
 }
 
 
  @media screen and (max-width:468px){
-    .video_2{
-        display: none;
-    }
     .video_propiedades_2{
         display: none;
     }
-    .video_propiedades iframe{
-        width: 20rem;
-        height: 20rem;
+    .description_2{
+        display: none;
     }
-    .video_propiedades img{
-        width: 20rem;
-        height: 20rem;
+    .row iframe{
+        width: 20rem !important;
+        height: 20rem !important;
+        padding-bottom: 0rem !important;
+    }
+    
+    .row img{
+        width: 20rem !important;
+        height: 20rem !important;
+        padding-top: 4rem !important;
+        margin-bottom: 0rem !important;
     }
     .imagenes-layout{
         width: 300px;
@@ -605,102 +631,8 @@ gap: 1px;
 }
 
 @media screen and (max-width:768px){
-    header {
-        display: block;
-     }
- 
-     .texto_title{
-         width: auto;
-         height: auto;
-         
-     }
-
-     .header_logo{
-        margin: 0;
-        padding: 0rem 0rem 1rem 0rem;
-     }
-
-     .nav_container{
-            padding-bottom: 5rem;
-     }
- 
-     .menu ul {
-         flex-direction: column;
-     }
-     .menu li{
-         text-decoration: underline;
-         font-size: 12px;
-     }
-     .menu li a{
-         margin: 0.5px;
-         padding: 0.5px;
-     }  
-
-    main{
-        display: flex;
-    }
-
-    section {
-        display: flex;
-        flex-direction: column;
-    }
-
-
-.video-responsive-estilos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-
-  .video-responsive-estilos iframe{
-    width: 10rem;
-    height: 10rem;
-  }
-
-  .video_propiedades img{
-    width: 10rem;
-    height: 10rem;
-  }  
-
-
-    .video_2{
-        display: none;
-    }
-    .video_propiedades_2{
-        display: none;
-    }
-    .video_propiedades{
-        width: 20rem;
-        height: 20rem;
-    }
-
-
-
-    .grid-layout img{
-        display: grid;
-        width: 10rem;
-        height: 10rem;
-     }
-
+   
     
-.container-section{
-    display: flex;
-}
-.container-section-estilos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-.container-section-uno{
-    display: inline;
-    padding-bottom: 5rem;
-}
-.container-section-dos{
-    display: inline;
-    padding-bottom: 5rem;
-}
 
 .imagen-gradient{
     background: linear-gradient(90deg, 
@@ -708,31 +640,4 @@ gap: 1px;
                                             rgba(197, 195, 195, 0.7) 25%,
                                             rgba(246, 243, 243, 0.7) 100%);
  }
-.footer-container{
-    display: flex;
-    height: 80%;
 }
-.footer-container-estilos{ 
-    flex-direction: column;
-    align-items: center;
-    text-align: center; 
-}
-
-.footer-container-estilos iframe{
-    width: 10rem;
-    height: 10rem;
-    padding-bottom: 2rem;
-}
-
-.footer-logo{
-    padding-left: 50px;
-}
-
-
-}
-     .imagen-gradient{
-        background: linear-gradient(90deg, 
-                                                rgba(140, 140, 140, 0.7) 0%,
-                                                rgba(197, 195, 195, 0.7) 25%,
-                                                rgba(246, 243, 243, 0.7) 100%);
-     }
