@@ -759,6 +759,11 @@ gap: 1px;
         width: 30rem;
         height: 15rem;
  }     
-
+ .imagen-gradient{
+    background: linear-gradient(90deg, 
+                                            rgba(140, 140, 140, 0.7) 0%,
+                                            rgba(197, 195, 195, 0.7) 25%,
+                                            rgba(246, 243, 243, 0.7) 100%);
+ }
  
 }
