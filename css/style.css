@@ -367,18 +367,18 @@ header {
     .description_2{
         display: none;
     }
-    .row iframe{
+    .video iframe{
         width: 20rem !important;
         height: 20rem !important;
         padding-bottom: 0rem !important;
     }
     
-    .row img{
+    /*.video img{
         width: 20rem !important;
         height: 20rem !important;
         padding-top: 4rem !important;
         margin-bottom: 0rem !important;
-    }
+    }*/
     .imagenes-layout{
         width: 300px;
         height: 200px;
