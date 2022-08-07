@@ -345,19 +345,6 @@ header {
         display: none;
     }
 
-    /*.video .row ,iframe{
-        width: 15rem !important;
-        height: 15rem !important;
-        padding-bottom: 0rem !important;
-    }
-    
-    .video_propiedades img{
-        width: 15rem !important;
-        height: 15rem !important;
-        padding-top: 4rem !important;
-        margin-bottom: 0rem !important;
-    }*/
-
      .titulo-pre-grid{
         font-size: 2rem;
         width: 18rem;
@@ -556,8 +543,8 @@ section {
   }
 
      .video-responsive-estilos iframe{
-         width: 10rem;
-         height: 10rem;
+         width: 20rem;
+         height: 20rem;
   }
 
      .video_propiedades img{
@@ -641,10 +628,87 @@ gap: 1px;
 }
 }
 
+@media screen and (max-width:551px) {
+    .video-responsive-estilos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        
+ }
+
+    .video-responsive-estilos iframe{
+        width: 25rem;
+        height: 20rem;
+ }
+
+    .video_propiedades img{
+        width: 25rem;
+        height: 20rem;
+ }   
+ 
+ .video_propiedades_2 img{
+    width: 25rem;
+    height: 20rem;
+}       
+}
+
 @media screen and (max-width:768px){
    
+    .container-section{
+        display: flex;
+    }
+    .container-section-estilos{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .container-section-uno{
+        display: inline;
+        padding-bottom: 5rem;
+    }
+    .container-section-dos{
+        display: inline;
+        padding-bottom: 5rem;
+    }
+    .container-section-uno p{
+        display: inline-block;
+        padding-bottom: 3rem;
+        font-size: 1.6rem;
+        
+    }
+    .container-section-dos p{
+        display: inline-block;
+        padding-bottom: 3rem;
+        font-size: 1.6rem;
+    }
     
+    .container-section-tres p{
+        display: inline-block;
+        padding-bottom: 5rem;
+        margin-top: 5rem;
+        font-size: 1.6rem;
+    }
 
+    .footer-container{
+        display: flex;
+        height: 80%;
+    }
+    .footer-container-estilos{ 
+        flex-direction: column;
+        align-items: center;
+        text-align: center; 
+    }
+    
+    .footer-container-estilos iframe{
+        width: 10rem;
+        height: 10rem;
+    }
+    
+    .footer-logo{
+        padding-left: 50px;
+    }
 .imagen-gradient{
     background: linear-gradient(90deg, 
                                             rgba(140, 140, 140, 0.7) 0%,
