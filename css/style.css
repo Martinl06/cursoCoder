@@ -767,3 +767,29 @@ gap: 1px;
  }
  
 }
+
+@media screen and (max-width:1200px){
+
+    .video-responsive-estilos iframe{
+        width: 30rem;
+        height: 20rem;
+ }
+
+    .video_propiedades_2 img{
+        width: 30rem;
+        height: 20rem;
+        padding-top: 0rem;
+        margin-bottom: 0rem;
+    }      
+    .video_propiedades img{
+        width: 30rem;
+        height: 20rem;
+ }     
+ .imagen-gradient{
+    background: linear-gradient(90deg, 
+                                            rgba(140, 140, 140, 0.7) 0%,
+                                            rgba(197, 195, 195, 0.7) 25%,
+                                            rgba(246, 243, 243, 0.7) 100%);
+ }
+ 
+}
