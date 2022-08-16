@@ -75,7 +75,7 @@ header .header_logo {
 }
 .container_propiedades a:hover {
   background: grey;
-  color: bg-blanco;
+  color: white;
 }
 
 .titulo_preVideo h2 {
@@ -107,7 +107,18 @@ header .header_logo {
   padding: 0rem 1.5rem 0rem 1.5rem;
 }
 .description a {
-  padding: 0rem 1.5rem 0rem 1.5rem;
+  padding: 1.8rem 1rem 1rem 1rem;
+  text-decoration: none;
+  display: inline-block;
+  color: grey;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+  margin-left: 1.4rem;
+}
+.description a:hover {
+  background: blue;
+  color: white;
 }
 
 .video_propiedades_2 img {
@@ -127,7 +138,18 @@ header .header_logo {
   padding: 0rem 1.5rem 0rem 1.5rem;
 }
 .description_2 a {
-  padding: 0rem 1.5rem 0rem 1.5rem;
+  padding: 1.8rem 1rem 1rem 1rem;
+  text-decoration: none;
+  display: inline-block;
+  color: grey;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+  margin-left: 1.4rem;
+}
+.description_2 a:hover {
+  background: blue;
+  color: white;
 }
 
 .titulo-pre-grid {
