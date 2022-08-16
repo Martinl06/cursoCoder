@@ -2,6 +2,16 @@ header {
   display: flex;
   justify-content: space-between;
 }
+header .header_logo {
+  width: 50%;
+}
+
+.nav_container {
+  background: white;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  font-weight: bold;
+}
 
 .menu li {
   padding: 0 2rem;
@@ -16,6 +26,23 @@ header {
 .menu a:hover {
   background: grey;
   color: white;
+}
+
+.menuHamburguesa {
+  background-color: grey;
+}
+
+.imagen-gradient {
+  background: linear-gradient(90deg, rgba(140, 140, 140, 0.7) 0%, rgba(197, 195, 195, 0.7) 25%, rgba(246, 243, 243, 0.7) 100%);
+}
+
+.texto_title {
+  font-family: "Bebas Neue", sans-serif;
+  text-align: center;
+  color: rgb(11, 11, 11);
+  font-size: 70px;
+  padding: 5rem;
+  margin-top: 15rem;
 }
 
 .card_propiedades {
@@ -48,7 +75,7 @@ header {
 }
 .container_propiedades a:hover {
   background: grey;
-  color: white;
+  color: bg-blanco;
 }
 
 .titulo_preVideo h2 {
@@ -63,6 +90,12 @@ header {
   font-size: 1.5rem;
 }
 
+.video_propiedades img {
+  width: 570px;
+  height: 300px;
+  justify-content: flex-start;
+}
+
 .description {
   display: flex;
   flex-wrap: wrap;
@@ -70,8 +103,17 @@ header {
 .description h3 {
   padding: 3rem 1.5rem 0rem;
 }
-.description p a {
+.description p {
   padding: 0rem 1.5rem 0rem 1.5rem;
+}
+.description a {
+  padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.video_propiedades_2 img {
+  width: 35rem;
+  height: 18rem;
+  justify-content: flex-start;
 }
 
 .description_2 {
@@ -81,8 +123,71 @@ header {
 .description_2 h3 {
   padding: 3rem 1.5rem 0rem;
 }
-.description_2 p a {
+.description_2 p {
   padding: 0rem 1.5rem 0rem 1.5rem;
+}
+.description_2 a {
+  padding: 0rem 1.5rem 0rem 1.5rem;
+}
+
+.titulo-pre-grid {
+  text-align: center;
+  margin-top: 400px;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 3rem;
+}
+
+.imagenes-layout {
+  width: 350px;
+  height: 200px;
+  border-radius: 10px;
+}
+.imagenes-layout:hover {
+  transition: all 1s ease;
+  cursor: pointer;
+  box-shadow: 10px 10px 20px rgb(0, 0, 0);
+  transform: scale(1.1);
+}
+
+.container-section {
+  display: flex;
+  flex-direction: row;
+  margin: 20rem 1rem 25rem;
+}
+
+.container-section-estilos {
+  display: flex;
+}
+.container-section-estilos img {
+  width: 70%;
+  height: 60%;
+}
+
+.container-section-uno {
+  width: 70%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.container-section-uno p {
+  padding: 1rem 1.5rem;
+}
+
+.container-section-dos {
+  width: 70%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.container-section-dos p {
+  padding: 1rem 1.5rem;
+}
+
+.container-section-tres {
+  width: 60%;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.container-section-tres p {
+  padding: 1rem 1.5rem 0rem;
 }
 
 .footer-container {
@@ -106,7 +211,7 @@ header {
   display: flex;
   list-style: none;
   text-decoration: none;
-  color: black;
+  color: rgb(11, 11, 11);
   width: 50px;
   height: 50px;
 }
@@ -123,6 +228,10 @@ header {
 .footer-paginas li {
   margin-right: 3rem;
 }
+.footer-paginas h3 {
+  padding-left: 1.3rem;
+  margin-left: 1.3rem;
+}
 .footer-paginas a {
   width: 10px;
   height: 10px;
@@ -132,12 +241,15 @@ header {
   list-style: none;
   text-decoration: none;
   padding: 0rem 5rem;
+  margin-top: -0.3rem;
 }
 .footer-paginas a:hover {
-  color: black;
+  color: rgb(11, 11, 11);
 }
-.footer-paginas h3 {
-  text-align: center;
+
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

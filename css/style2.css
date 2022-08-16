@@ -69,7 +69,7 @@ header {
 .texto_title{
     font-family: 'Bebas Neue', sans-serif;
     text-align: center;
-    color: black;
+    color: rgb(11, 11, 11);
     font-size: 70px;
     padding: 5rem;
     margin-top: 15rem;
@@ -192,7 +192,7 @@ header {
 }
 .container-section-dos{
     justify-content: center;
-    width:80%;;
+    width:80%;
     font-size:1.8rem;
 }
 
