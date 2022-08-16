@@ -1,0 +1,43 @@
+header{
+            display: flex;
+            justify-content: space-between;
+
+.header_logo {
+            width: 50%;
+}
+}
+
+.nav_container {
+            background: $bg-blanco;
+            font-family:'Poppins', sans-serif;
+            display: flex;
+            font-weight: bold;
+}
+
+.menu{  
+        li{
+            padding: 0 2rem;
+} 
+        a{    
+            color: grey;
+            text-decoration: none;
+            display: flex;
+            flex-direction: row;
+            padding: 1rem;
+         &:hover{
+            background: grey;
+            color: white;
+          }      
+}
+}
+
+.menuHamburguesa{
+            background-color: $bg-grisClaro;
+}
+
+.imagen-gradient{
+            background: linear-gradient(90deg, 
+                                            rgba(140, 140, 140, 0.7) 0%,
+                                            rgba(197, 195, 195, 0.7) 25%,
+                                            rgba(246, 243, 243, 0.7) 100%);
+ }
