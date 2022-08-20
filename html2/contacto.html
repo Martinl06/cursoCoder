@@ -23,12 +23,45 @@
     </nav>
         </div>
     </header> 
-    <main>
-        <form>
-            <label for="nombre_apellido">Nombre:</label>
-            <input type="text"placeholder="Inserte Aquí" name="nombre_apellido"/>
-            <label for="nombre_apellido">Apellido:</label>
-            <input type="text"placeholder="Inserte Aquí" name="nombre_apellido"/>
+    <main class="imagen-html2">
+        <div class="container">
+        <form class="row g-3 formulario">
+            <h2>Contáctenos</h2>
+            <div class="col-lg-12">
+                <label for="nombre_apellido"class="form-label">Nombre:</label>
+                <input type="text"class="form-control" id="nombre_apellido" placeholder="Inserte su Nombre">
+            </div>
+
+            <div class="col-lg-12">
+                <label for="nombre_apellido" class="form-label">Apellido:</label>
+                <input type="text"class="form-control" id="nombre_apellido" placeholder="Inserte su Apellido"/>
+            </div>
+
+            <div class="col-lg-12">
+                <label for="email"class="form-label">Email:</label>
+                <input type="email"class="form-control" id="email" placeholder="Inserte su Email"/>
+            </div>
+
+            <div class="col-lg-12">
+                <label for="telefono" class="form-label">Teléfono:</label>
+                <input type="text"class="form-control" id="telefono" placeholder="Escriba su Telefono"/>    
+            </div>
+
+            <div class="col-lg-12">
+                <label for="ciudad" class="form-label">Ciudad:</label>
+                <input type="text"class="form-control" id="ciudad" placeholder="Escriba su ciudad"/>
+            </div>
+
+            <div class="col-lg-12">
+                <label for="motivo_contacto" class="form-label">Motivo del contacto:</label>
+                <textarea name="motivo_contacto" id="motivo_contacto" class="form-control" placeholder="Escriba su texto"></textarea>
+            </div>
+
+            <div class="col-lg-12">
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+            <p>Uno de nuestros asesores se contactará con usted de inmediato</p>
+        </div>   
         </form>
     </main>
 
