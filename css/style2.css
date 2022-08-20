@@ -245,26 +245,25 @@ header {
 
 
 .footer-container-estilos  li{
-    display: inline;
-    margin: 3rem;
+    display: flex;
+    margin-left: 2rem;
 }
 
 
-.footer-container-estilos a{
+.footer-container-estilos img{
     display: flex;
     list-style: none;
     text-decoration: none;
     color: black;
-    width: 50px;
-    height: 50px;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin: 0 3rem 1rem 0;
 }
 
 
-.footer-logo{
-    width: 100px;
-    height: 80px;
-    margin-right: 3rem;
-
+.footer-container-estilos .footer-logo{
+    width: 8rem;
+    height: 8rem;
 }
 
 .footer-paginas li{
@@ -276,27 +275,23 @@ header {
 }
 
 
-.footer-paginas a{ 
-    width: 10px;
-    height: 10px;
-    text-align: center;
-    justify-content: center;
+.footer-paginas ul li a{ 
     color: red;
     list-style: none;
     text-decoration: none;
-    padding: 0rem 2.5rem;
-    
-    
+    margin:0.2rem;
 
 }
 
 .footer-paginas h3{
     text-align: center;
+    margin-right: 1.925rem;
 }
 
 
 .footer-paginas li a:hover{
     color: black;
+    text-decoration: underline;
 }
 
 
