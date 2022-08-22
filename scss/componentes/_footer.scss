@@ -1,7 +1,7 @@
 .footer-container{
             border-top: 1px solid $bg-grisClaro;
             display: flex;
-            background-color:  $bg-footer;
+            background-color:  map-get($footer, bg-footer-Gclaro);
 }
 
 .footer-container-estilos{
@@ -18,7 +18,7 @@
             display: flex;
             list-style: none;
             text-decoration: none;
-            color: $bg-negro;
+            color: map-get($footer, bg-footer-Noscuro );
             width: nth($ancho, 2 );
             height: 50px;
 }
@@ -46,8 +46,8 @@
         a{ 
             width: nth($ancho, 1);
             height: 10px;
-            text-align: center;
-            justify-content: center;
+            text-align: map-get($footer, texto-alineado-centro);
+            justify-content: map-get($footer, justificado-centro);
             color: $bg-rojo;
             list-style: none;
             text-decoration: none;

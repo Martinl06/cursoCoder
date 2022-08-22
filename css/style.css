@@ -24,8 +24,8 @@ header .header_logo {
   padding: 1rem;
 }
 .menu a:hover {
-  background: grey;
   color: white;
+  background: grey;
 }
 
 .menuHamburguesa {

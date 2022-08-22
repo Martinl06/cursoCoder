@@ -11,7 +11,7 @@ header{
             background: $bg-blanco;
             font-family:'Poppins', sans-serif;
             display: flex;
-            font-weight: bold;
+            font-weight: map-get($menu, letra-negrita );
 }
 
 .menu{  
@@ -22,19 +22,18 @@ header{
             color: grey;
             text-decoration: none;
             display: flex;
-            flex-direction: row;
+            flex-direction: map-get($menu, en-fila);
             padding: 1rem;
          &:hover{
-            background: grey;
             color: white;
+            background: map-get($menu, bg-menu);
           }      
-}
+}       
 }
 
 .menuHamburguesa{
-            background-color: $bg-grisClaro;
+            background-color: map-get($menu, bg-menu);
 }
-
 .imagen-gradient{
             background: linear-gradient(90deg, 
                                             rgba(140, 140, 140, 0.7) 0%,
