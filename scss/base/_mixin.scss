@@ -1,0 +1,5 @@
+@mixin tamaños ($ancho, $alto, $tipoLetra) {
+    width: $ancho;
+    height: $alto;
+    font-weight: $tipoLetra;
+}

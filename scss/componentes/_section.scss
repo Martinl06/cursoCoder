@@ -27,6 +27,7 @@
 
 .container_propiedades{
             display: flex;
+            @extend %disposicion-menu;
         a{
             text-decoration: none;
             display: inline-block;

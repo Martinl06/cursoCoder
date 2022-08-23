@@ -172,8 +172,38 @@ header {
  }
  .description_2 ,p, a {
    padding: 0rem 1.5rem 0rem;
-    
  }
+
+ .description_2 a {
+    padding: 1.8rem 1rem 1rem 1rem;
+    text-decoration: none;
+    display: inline-block;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    margin-left: 1.4rem;
+  }
+  .description_2 a:hover {
+    background: grey;
+    color: white;
+  }
+    
+  .description a {
+    padding: 1.8rem 1rem 1rem 1rem;
+    text-decoration: none;
+    display: inline-block;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    margin-left: 1.4rem;
+  }
+  .description a:hover {
+    background: grey;
+    color: white;
+  }
+
 /*---------------section quienes somos----------*/
 .container-section{
     display: flex;
@@ -435,7 +465,7 @@ header {
         width: 20rem !important;
         height: 20rem !important;
         padding-top: 4rem !important;
-        margin-bottom: 0rem !important;
+        margin-bottom: 0;
     }
     .imagenes-layout{
         width: 300px;
@@ -535,6 +565,7 @@ header {
     .container_propiedades{
         padding-right: 0%;
         display: flex;
+        margin: 0.2rem
         
     }
 
@@ -577,7 +608,6 @@ main{
 }
 
 section {
-    display: flex;
     flex-direction: column;
 }
 
@@ -812,7 +842,7 @@ section {
                                             rgba(246, 243, 243, 0.7) 100%);
  }
 }
- @media screen and (max-width:999px){
+ @media screen and (max-width:1199px){
 
     .video-responsive-estilos iframe{
         width: 30rem;
@@ -829,32 +859,32 @@ section {
         width: 30rem;
         height: 15rem;
  }     
-.description{
-    padding-left:0;
+    .description{
+        padding-left:0;
 }
 
-.description_2{
-    padding-left:0;
+    .description_2{
+        padding-left:0;
 }
 
- .footer-container{
-    display: flex;
-    height: 80%;
+    .footer-container{
+        display: flex;
+        height: 80%;
 }
-.footer-container-estilos{ 
-    flex-direction: column;
-    align-items: center;
-    text-align: center; 
-}
-
-.footer-container-estilos iframe{
-    width: 10rem;
-    height: 10rem;
-    padding-bottom: 2rem;
+    .footer-container-estilos{ 
+        flex-direction: column;
+        align-items: center;
+        text-align: center; 
 }
 
-.footer-paginas .footer-logo{
-    margin-right: 3rem;
+    .footer-container-estilos iframe{
+        width: 10rem;
+        height: 10rem;
+        padding-bottom: 2rem;
+}
+
+    .footer-paginas .footer-logo{
+        margin-right: 3rem;
 }
     .imagen-gradient{
         background: linear-gradient(90deg, 

@@ -24,6 +24,7 @@ header{
             display: flex;
             flex-direction: map-get($menu, en-fila);
             padding: 1rem;
+            @extend %disposicion-menu;
          &:hover{
             color: white;
             background: map-get($menu, bg-menu);

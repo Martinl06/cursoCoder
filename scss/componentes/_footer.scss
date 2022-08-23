@@ -21,6 +21,7 @@
             color: map-get($footer, bg-footer-Noscuro );
             width: nth($ancho, 2 );
             height: 50px;
+            @extend %disposicion-menu;
 }
 }
 
