@@ -96,8 +96,6 @@ header .header_logo {
   display: inline-block;
   padding: 10px;
   color: grey;
-  border: 1px solid grey;
-  border-radius: 3px;
 }
 .container_propiedades a:hover {
   background: grey;
