@@ -3,79 +3,90 @@
     padding: 0;
 }
 
-    header {
-        display: flex;
-        justify-content: space-between;
+header {
+    display: flex;
+    justify-content: space-between;
 }
 
-    .header_logo {
+.header_logo {
 
-        width: 50%;
+    width: 50%;
 }
 
-    .imagen-gradient{
-        background: linear-gradient(90deg, 
+.imagen-gradient{
+    background: linear-gradient(90deg, 
                                             rgba(140, 140, 140, 0.7) 0%,
                                             rgba(197, 195, 195, 0.7) 25%,
                                             rgba(246, 243, 243, 0.7) 100%);
  }
 
 
-        .nav_container {
-            background: #fff;
-            font-family:'Poppins', sans-serif;
-            display: flex;
-            font-weight: bold;
+.nav_container {
+    background: #fff;
+    font-family:'Poppins', sans-serif;
+    display: flex;
+    font-weight: bold;
 }
 
-        .menu li{
-            padding: 0 2rem;
-}    
-
-        .menu li a{    
-            color: grey;
-            text-decoration: none;
-            display: flex;
-            flex-direction: row;
-            padding: 1rem;      
+.menu li{
+    padding: 0 2rem;
+}     
+.menu li a{    
+     color: grey;
+     text-decoration: none;
+     display: flex;
+     flex-direction: row;
+     padding: 1rem;      
 }
-        .menu li a:hover{
-            background: grey;
-            color: white;
+.menu li a:hover{
+    background: grey;
+    color: white;
  }
-        .menuHamburguesa{
-            background-color: grey;
+.menuHamburguesa{
+    background-color: grey;
 
  }
 
-        .color-carrusel {
-            font-weight: bold;
-            font-size: 2rem;
+.color-carrusel {
+    font-weight: bold;
+    font-size: 2rem;
 }
-        .color-texto-carrusel{
-            font-size: 1.5rem;
-}
-
-        .titulo-carrusel{
-            font-size: 1.8rem;
-            font-weight: bold;
-            color:rgb(11, 22, 1);
+.color-texto-carrusel{
+    font-size: 1.5rem;
 }
 
-        .parrafo-carrusel{
-            font-size: 1rem;
-            font-weight: bold;
-            color:rgb(11, 22, 1);
+.titulo-carrusel{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color:rgb(245, 245, 134);
+    text-shadow: 0 0 5px grey,
+                         0 0 25px grey,
+                         0 0 50px grey,
+                         0 0 100px grey ;
+}
+
+.parrafo-carrusel{
+    font-size: 1rem;
+    font-weight: bold;
+    color:rgb(245, 245, 134);
+    text-shadow: 0 0 5px grey,
+                         0 0 25px grey,
+                         0 0 50px grey,
+                         0 0 100px grey ;
 }
 
 
-        .texto_title{
-            font-family: 'Bebas Neue', sans-serif;
-            text-align: center;
-            color: rgb(11, 11, 11);
-            font-size: 70px;
-            padding: 5rem;
-            margin-top: 15rem;
+.texto_title{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 5px black,
+                         0 0 25px black,
+                         0 0 50px black,
+                         0 0 100px black;
+    font-size: 70px;
+    padding: 5rem;
+    margin-top: 15rem;
 
 }
 
@@ -123,6 +134,12 @@
 
 
 .titulo_preVideo h2  {
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    text-shadow: 0 0 5px black,
+                         0 0 25px black,
+                         0 0 50px black,
+                         0 0 100px black;
     text-align: center;
     margin-top:200px;
     font-size: 3rem;
@@ -197,6 +214,15 @@
     color: white;
   }
 
+  .titulo-pre-grid{
+    color: white;
+    text-shadow: 0 0 5px black,
+                         0 0 25px black,
+                         0 0 50px black,
+                         0 0 100px black;
+    margin-bottom: 10rem;                     
+  }
+
 /*---------------section quienes somos----------*/
 .container-section{
     display: flex;
@@ -249,6 +275,30 @@
     transform: scale(1.1);
 }
 
+.contenedor-boton{
+    left: auto;
+    display: block;
+    padding-right: 2.5rem;
+    padding-bottom: 15rem;
+}
+.boton{
+    width: 2rem;
+}
+.boton a{
+    color: grey;
+    text-decoration: none;
+}
+
+/*----------neon---------*/
+.boton a:hover{
+    color: #fff;
+    text-shadow: 0 0 5px rgb(250, 69, 69),
+                 0 0 25px rgb(250, 69, 69),
+                 0 0 50px rgb(250, 69, 69),
+                 0 0 100px rgb(250, 69, 69);
+    cursor: pointer;
+}
+
 
 /*----------------footer---------------*/
 .footer-container{
@@ -273,14 +323,14 @@
 }
 
 
-.footer-container-estilos img{
-    display: flex;
-    list-style: none;
-    text-decoration: none;
-    color: black;
+.footer-container-estilos img {
     width: 3.5rem;
     height: 3.5rem;
     margin: 0 3rem 1rem 0;
+}
+
+.footer-container-estilos a{
+    color: #fff;
 }
 
 
@@ -312,7 +362,7 @@
 }
 
 
-.footer-paginas li a:hover{
+.footer-paginas a:hover{
     color: black;
     text-decoration: underline;
 }
@@ -375,7 +425,7 @@
         background-position: center;
 }
         .formulario{
-        max-width: 25rem;
+        max-width: 40rem;
         padding: 1.5rem;
         margin: 0 auto;
         background-color: rgba(120, 119, 123, 0.3);
@@ -391,6 +441,12 @@
         font-family: 'Poppins', sans-serif;
         color:#fff;
 }
+
+.formulario-nombre{
+    color: white;
+}
+
+
 
 @media screen and (max-width:320px){
 
@@ -532,8 +588,8 @@
 }
 
     .footer-container-estilos iframe{
-        width: 10rem;
-        height: 10rem;
+        width: 20rem;
+        height: 20rem;
 }
 
     .footer-logo{
@@ -693,8 +749,8 @@
 }
 
     .footer-container-estilos iframe{
-        width: 10rem;
-        height: 10rem;
+        width: 20rem;
+        height: 20rem;
 }
 
     .footer-logo{
@@ -810,8 +866,8 @@
     }
     
     .footer-container-estilos iframe{
-        width: 10rem;
-        height: 10rem;
+        width: 20rem;
+        height: 20rem;
         padding-bottom: 2rem;
     }
     
@@ -862,8 +918,8 @@
 }
 
     .footer-container-estilos iframe{
-        width: 10rem;
-        height: 10rem;
+        width: 20rem;
+        height: 20rem;
         padding-bottom: 2rem;
 }
 
@@ -906,3 +962,4 @@
  }
  
 }
+
